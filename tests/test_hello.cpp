@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+    //WOW DOES THIS WORK
 	int ret = sayHello();
     assert(ret == 0);
     return ret;
