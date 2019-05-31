@@ -6,14 +6,15 @@ compiler:
 script:
   - make tests
 
+
 notifications:
-  email:
-    recipients:
-      - ejc369@nyu.edu
+  slack:
+    rooms: 
+      - nyuoop:Pt31RgSKx7T34S8fyZ4NI7tj #your_TA_slack_channel
     on_success: always
     on_failure: never
-
+  email:
     recipients:
-      - mz2325@nyu.edu
+      - your_email@nyu.edu
     on_success: always
     on_failure: always  
